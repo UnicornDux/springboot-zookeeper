@@ -1,0 +1,9 @@
+logging:
+  level:
+    com.edu.zk: DEBUG
+    org.apache.zookeeper: INFO
+
+zk:
+  retry: 5
+  timeout: 2000
+  url: 192.168.64.170:2181
